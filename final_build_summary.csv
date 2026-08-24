@@ -1,0 +1,2 @@
+course_name,course_version,dataset_version,release_status,fail_count,check_count,radar_site,radar_latitude,radar_longitude,radar_utm_epsg,hydrobasins_level,package_count,github_ready_dir,built_utc
+TMD Weather Radar Processing with Open-Source Python,1.0.0,v1,REVIEW_REQUIRED,0,1,PHS,16.775407986111112,100.21796440972223,32647,7,3,/content/drive/MyDrive/TMD_Radar_Course_Builder/01_GitHub_ready/v1,2026-08-24T07:22:31.252680+00:00

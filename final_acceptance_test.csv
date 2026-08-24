@@ -1,0 +1,31 @@
+stage,check,status,detail
+build_acceptance,Radar structural QC: PHS240@201807201000.uf,PASS,"4 sweeps, 1924 rays, 240 gates, 240.5 km"
+build_acceptance,Required radar fields: PHS240@201807201000.uf,PASS,all present
+build_acceptance,Radar structural QC: PHS240@201807201030.uf,PASS,"4 sweeps, 1924 rays, 240 gates, 240.5 km"
+build_acceptance,Required radar fields: PHS240@201807201030.uf,PASS,all present
+build_acceptance,Radar-site coordinate consistency,PASS,0.0
+build_acceptance,Pedagogical sounding readable,PASS,70 parsed levels
+build_acceptance,DEM readable and georeferenced,PASS,CRS=EPSG:4326; valid_fraction=1.000
+build_acceptance,Spatial dataset: dem,PASS,readable=True; CRS=EPSG:4326; N=786480
+build_acceptance,Spatial dataset: provinces_full,PASS,readable=True; CRS=EPSG:4326; N=77
+build_acceptance,Spatial dataset: provinces_phs,PASS,readable=True; CRS=EPSG:4326; N=30
+build_acceptance,Spatial dataset: phitsanulok_amphoe,PASS,readable=True; CRS=EPSG:4326; N=9
+build_acceptance,Spatial dataset: subbasins_phs,PASS,readable=True; CRS=EPSG:4326; N=97
+build_acceptance,Spatial dataset: radar_site,PASS,readable=True; CRS=EPSG:4326; N=1
+build_acceptance,Spatial dataset: radar_range_rings,PASS,readable=True; CRS=EPSG:4326; N=4
+build_acceptance,Spatial dataset: radar_domain,PASS,readable=True; CRS=EPSG:4326; N=1
+build_acceptance,GeoTIFF round-trip smoke test,PASS,True
+build_acceptance,Redistribution rights reviewed,CHECK,False
+package,TMD_Radar_Core_v1.zip,PASS,4.28 MB; zip=True; top_level=True; under95=True
+package,TMD_Radar_Spatial_v1.zip,PASS,1.71 MB; zip=True; top_level=True; under95=True
+package,TMD_Radar_Metadata_v1.zip,PASS,1.09 MB; zip=True; top_level=True; under95=True
+fresh_student_simulation,radar_1000,PASS,required fields present
+fresh_student_simulation,radar_1030,PASS,required fields present
+fresh_student_simulation,dem,PASS,EPSG:4326
+fresh_student_simulation,provinces_full,PASS,"N=77, CRS=EPSG:4326"
+fresh_student_simulation,provinces_phs,PASS,"N=30, CRS=EPSG:4326"
+fresh_student_simulation,phitsanulok_amphoe,PASS,"N=9, CRS=EPSG:4326"
+fresh_student_simulation,subbasins,PASS,"N=97, CRS=EPSG:4326"
+fresh_student_simulation,radar_site,PASS,"N=1, CRS=EPSG:4326"
+fresh_student_simulation,radar_range_rings,PASS,"N=4, CRS=EPSG:4326"
+fresh_student_simulation,radar_domain,PASS,"N=1, CRS=EPSG:4326"

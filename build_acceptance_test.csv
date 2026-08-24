@@ -1,0 +1,18 @@
+check,observed,expected,status,note
+Radar structural QC: PHS240@201807201000.uf,"4 sweeps, 1924 rays, 240 gates, 240.5 km",Positive dimensions and plausible radar range,PASS,
+Required radar fields: PHS240@201807201000.uf,all present,"reflectivity, velocity, spectrum_width, corrected_reflectivity, corrected_differential_reflectivity, differential_phase, cross_correlation_ratio",PASS,These fields are required across Notebook 01–13.
+Radar structural QC: PHS240@201807201030.uf,"4 sweeps, 1924 rays, 240 gates, 240.5 km",Positive dimensions and plausible radar range,PASS,
+Required radar fields: PHS240@201807201030.uf,all present,"reflectivity, velocity, spectrum_width, corrected_reflectivity, corrected_differential_reflectivity, differential_phase, cross_correlation_ratio",PASS,These fields are required across Notebook 01–13.
+Radar-site coordinate consistency,0.0,<= 0.01 degree between the two volumes,PASS,
+Pedagogical sounding readable,70 parsed levels,>= 10 usable profile levels,PASS,The sounding is pedagogical only and is not event-collocated.
+DEM readable and georeferenced,CRS=EPSG:4326; valid_fraction=1.000,"CRS present, valid pixels present, PHS location within raster",PASS,
+Spatial dataset: dem,readable=True; CRS=EPSG:4326; N=786480,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: provinces_full,readable=True; CRS=EPSG:4326; N=77,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: provinces_phs,readable=True; CRS=EPSG:4326; N=30,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: phitsanulok_amphoe,readable=True; CRS=EPSG:4326; N=9,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: subbasins_phs,readable=True; CRS=EPSG:4326; N=97,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: radar_site,readable=True; CRS=EPSG:4326; N=1,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: radar_range_rings,readable=True; CRS=EPSG:4326; N=4,"Readable, CRS present, no invalid vector geometries",PASS,
+Spatial dataset: radar_domain,readable=True; CRS=EPSG:4326; N=1,"Readable, CRS present, no invalid vector geometries",PASS,
+GeoTIFF round-trip smoke test,True,True,PASS,
+Redistribution rights reviewed,False,True,CHECK,"Manual instructor review is required, especially for TMD radar redistribution."

@@ -1,0 +1,4 @@
+package_id,filename,dataset_version,purpose,required,size_bytes,size_mb,sha256,zip_integrity_pass,top_level_folder_pass,member_count,under_95_mb
+core,TMD_Radar_Core_v1.zip,v1,Radar UF volumes and pedagogical sounding,True,4490103,4.282095909118652,a398f713eeca32051283607abd247b820c842c18df63f425d209b1693752ff83,True,True,4,True
+spatial,TMD_Radar_Spatial_v1.zip,v1,DEM and GIS layers,True,1790610,1.7076587677001953,d317aef04554cc825c8426192d3099316c958aff36043d3b38cb409608ffa084,True,True,8,True
+metadata,TMD_Radar_Metadata_v1.zip,v1,"Configuration, metadata, provenance and legacy paths",True,1144357,1.091343879699707,f18d5e44418c624b5fa75c34253596bf0a5b58766d3e2243722a57633c16a256,True,True,19,True
